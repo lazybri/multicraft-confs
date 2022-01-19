@@ -45,6 +45,17 @@ or it wont find the correct jar file fo copy for forge
 
 I have created a "custom.jar.conf",made specially for OmniFactory-dev,I will periodically upload and replace the "/forge_stores/custom/custom.jar" according the dev-release of OmniFactory,normal user can download this repo and replace the "custom.jar" according to their use.
 
+# Usage & explanation of "mover-custom"
+
+Usage:
+        ./mover-custom myserver
+***"myserver" is the dirctory of your server root dir.***
+
+Explanation:
+This shell script is edited to only copy "custom.jar" into your server folder,so only gave it your server's dirctory, then it will do the job for you.
+
+**Scrpit Origin:https://github.com/ronappleton/multicraft-confs/mover**
+
 # OmniFactory-Dev jar version
 ***This will change with each update***
 
